@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
-![Last Commit](https://img.shields.io/github/last-commit/yourusername/ML-Enhanced-Trading-Engine)
+![Last Commit](https://img.shields.io/github/last-commit/Frederik-Finance/EnsembleML)
 
 ## Table of Contents
 - [Overview](#overview)
