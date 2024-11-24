@@ -113,10 +113,13 @@ The trading engine employs three distinct machine learning models, each contribu
 
 ## Project Structure
 ```
-├── DataManager.py          # Data processing and feature engineering
-├── ModelCreator.py        # ML model initialization and training
-├── EnsembleVoting.py      # Ensemble strategy implementation
-└── requirements.txt       # Project dependencies
+ML-Enhanced-Trading-Engine/
+├── main.py              
+├── src/
+│   ├── __init__.py
+│   ├── DataManager.py
+│   ├── ModelCreator.py
+│   └── EnsembleVoting.py
 ```
 
 ## Installation
