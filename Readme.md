@@ -114,12 +114,17 @@ The trading engine employs three distinct machine learning models, each contribu
 ## Project Structure
 ```
 ML-Enhanced-Trading-Engine/
-├── main.py              
-├── src/
-│   ├── __init__.py
-│   ├── DataManager.py
-│   ├── ModelCreator.py
-│   └── EnsembleVoting.py
+├── images/                     # Directory for image assets
+├── src/                        # Source code directory
+│   ├── DataManager.py          # Handles data processing and feature engineering
+│   ├── EnsembleVoting.py       # Implements the ensemble strategy
+│   ├── ModelCreator.py         # Initializes and trains machine learning models
+├── .gitignore                  # Specifies files to be ignored by Git
+├── LICENSE                     # License information
+├── Readme.md                   # Project documentation
+├── main.py                     # Main script to run the trading engine
+└── requirements.txt            # List of project dependencies
+
 ```
 
 ## Installation
@@ -147,9 +152,11 @@ ML-Enhanced-Trading-Engine/
 
 ## Usage
 
-### Running the Trading Engine
+### Running the Program
+To execute the program, run the following command in your terminal:
+
 ```bash
-python EnsembleVoting.py
+python main.py
 ```
 
 ## Requirements
