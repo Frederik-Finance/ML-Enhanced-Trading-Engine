@@ -111,6 +111,19 @@ The trading engine employs three distinct machine learning models, each contribu
    - **Dynamic Weighting**: Adjusts model weights periodically based on recent performance metrics.
    - **Position Sizing**: Allocates capital dynamically in response to model confidence.
 
+## Results and Visualization
+
+![Performance Chart](./images/cumulative_returns_models_vs_benchmark.png)
+
+*Provide insights and interpretations of the results to help users understand the system's effectiveness.*
+
+## Future Improvements
+- **Regime Detection Algorithms**: Incorporate algorithms to identify and adapt to different market regimes.
+- **Enhanced Weight Optimization**: Explore advanced optimization techniques for better weight allocation.
+- **Additional Models**: Integrate new machine learning model architectures to diversify the ensemble.
+- **Transaction Cost Modeling**: Factor in transaction costs to simulate more realistic trading scenarios.
+- **New Rebalancing Scheme**: Develop and test alternative rebalancing strategies to improve performance.
+
 ## Project Structure
 ```
 ML-Enhanced-Trading-Engine/
@@ -168,19 +181,6 @@ python main.py
 - pandas-ta
 
 *All dependencies are listed in the `requirements.txt` file.*
-
-## Results and Visualization
-
-![Performance Chart](./images/cumulative_returns_models_vs_benchmark.png)
-
-*Provide insights and interpretations of the results to help users understand the system's effectiveness.*
-
-## Future Improvements
-- **Regime Detection Algorithms**: Incorporate algorithms to identify and adapt to different market regimes.
-- **Enhanced Weight Optimization**: Explore advanced optimization techniques for better weight allocation.
-- **Additional Models**: Integrate new machine learning model architectures to diversify the ensemble.
-- **Transaction Cost Modeling**: Factor in transaction costs to simulate more realistic trading scenarios.
-- **New Rebalancing Scheme**: Develop and test alternative rebalancing strategies to improve performance.
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
